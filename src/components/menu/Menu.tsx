@@ -8,19 +8,19 @@ type MenuData = {
 }
 
 const menuData: MenuData[] = [
-    { 
+    {
         id: 1,
-        to: '/',
+        to: '/test-zadanie-02-01-2/',
         title: 'Products'
     },
-    { 
+    {
         id: 2,
-        to: '/price-plans',
+        to: '/test-zadanie-02-01-2/price-plans',
         title: 'Price Plans'
     },
-    { 
+    {
         id: 3,
-        to: '/pages',
+        to: '/test-zadanie-02-01-2/pages',
         title: 'Pages'
     }
 ]
