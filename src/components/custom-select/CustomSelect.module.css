@@ -1,0 +1,55 @@
+.select {
+    position: relative;
+    width: 240px;
+}
+
+.header {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.clear {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+.arrow.open {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.options {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.option {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}

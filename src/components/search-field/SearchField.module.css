@@ -1,0 +1,26 @@
+.field {
+    width: 240px;
+    position: relative;
+}
+
+.field input {
+    width: 100%;
+    padding: 11px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #fff;
+
+    font-size: 16px;
+}
+
+
+.clear {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 900;
+}

@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1000px;
+    margin: 0 auto 32px;
+}
+
+.title {
+    max-width: 1000px;
+    margin: 0 auto 32px;
+}
